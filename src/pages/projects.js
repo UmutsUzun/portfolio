@@ -7,9 +7,9 @@ export default function Projects() {
         My Projects
       </h1>
 
-      <div className="flex flex-col gap-8">
+      <div className="flex flex-col gap-10">
         {projects.map((project) => (
-          <div key={project.id} className="border-b pb-4">
+          <div key={project.id} className="bg-white shadow-md rounded-lg p-6 border border-gray-200 transition hover:shadow-lg">
             <h2 className="text-xl font-semibold text-gray-800">
               {project.title}
             </h2>
