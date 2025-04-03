@@ -1,1 +1,42 @@
-portfolio/
+# node modules
+node_modules/
+
+# production
+.next/
+out/
+
+# environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# system files
+.DS_Store
+Thumbs.db
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# editor folders
+.vscode/
+.idea/
+
+# OS junk
+*.swp
+
+# typescript cache
+*.tsbuildinfo
+
+# build output
+dist/
+
+# local history (if using JetBrains IDEs)
+.local-history/
+
+# coverage reports
+coverage/
